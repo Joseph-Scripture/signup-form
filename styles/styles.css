@@ -23,6 +23,7 @@ img{
 img+h1{
     color: white;
     font-family: 'myfont';
+    font-size: 5rem;
 }
 .logo-banner {
     display: flex;         
@@ -35,4 +36,9 @@ img+h1{
 
 .right-column {
     flex: 2; 
+}
+.right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
