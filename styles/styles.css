@@ -88,4 +88,22 @@ input:focus{
     border-color: #ef4444;
     box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2)
 }
+.submit{
+    padding-left: 3.5rem;
+    margin-top: 35px;
+}
+button{
+    color: white;
+    background-color: #596D48;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    width: 200px;
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+}
 
