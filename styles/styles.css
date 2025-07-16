@@ -38,7 +38,41 @@ img+h1{
     flex: 2; 
 }
 .right-column{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    background-color: #F9FAFB;
 }
+.first-section{
+    margin-top: 14vh;
+}
+.first-section p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 3.5rem;
+
+    /* margin-top: 14vh; */
+}
+.for{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 2px rgb(0, 0, 0);
+    padding-left: 3.5rem;
+    padding-top: 0.5rem;
+    padding: 50px;
+}
+.for p{
+    font-size: 32px;
+    font-weight: bold;
+    /* color: #FFFFFF; */
+}
+.name, .contact, .passwords{
+    display: flex;
+    gap: 100px;
+}
+.first-name label, .last-name label, .email label, .phone label, .first-pas label, .final label{
+    display: block;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
