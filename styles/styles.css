@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.left-column {
+    flex: 1; 
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    /* display: flex; */
+}
+img{
+    width: 100px;
+    height: auto;
+}
+img+h1{
+    color: white;
+    font-family: 'myfont';
+}
+.logo-banner {
+    display: flex;         
+    align-items: center;   
+    justify-content: center; 
+    gap: 1rem; 
+    background-color: rgba(0,0,0,0.5);  
+    margin-top: 15vh;  
+}
+
+.right-column {
+    flex: 2; 
+}
