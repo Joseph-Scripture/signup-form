@@ -27,7 +27,7 @@
                 <div class="name">
                     <div class="first-name">
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" required>
                     </div>
                     <div class="last-name">
                          <label for="last_name" >LAST NAME</label>
@@ -41,24 +41,24 @@
                     </div>
                     <div class="phone">
                         <label for="number">PHONE NUMBER</label>
-                        <input type="tel" name="number" id="number">
+                        <input type="tel" name="number" id="number" required>
                     </div>     
                 </div>
                 <div class="passwords">
                     <div class="first-pas">
                         <label for="passwords">PASSWORD</label>
-                        <input type="password" name="passwords" id="passwords">
+                        <input type="password" name="passwords" id="passwords" class="password" required minlength="8">
                     </div>
                     <div class="final">
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm" id="password">
+                        <input type="password" name="confirm" id="password" class="password" minlength="8" required>
                     </div>                
                 </div>
                
             </form>
         </div> 
         <div class="submit">
-                <button type="submit">Create Account</button>
+                <button type="submit" >Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
         </div>
               

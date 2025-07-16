@@ -53,7 +53,7 @@ img+h1{
 }
 .for{
     background-color: #FFFFFF;
-    box-shadow: 0 2px 2px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
     padding-left: 3.5rem;
     padding-top: 0.5rem;
     padding: 50px;
@@ -74,5 +74,18 @@ input{
     width: 200px;
     height: 25px;
     margin-bottom: 15px;
+    border: 2px solid #E5E7EB;
+     border-radius: 5px;
+    padding: 8px 12px;
+}
+input:focus{
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+.password:invalid{
+    border-color: #ef4444;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2)
 }
 
